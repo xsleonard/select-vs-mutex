@@ -3,6 +3,10 @@ select-vs-mutex
 
 Golang comparison of a lock-free select to a mutex
 
+This is a companion repo to [Avoiding Locks in Golang](https://xsleonard.github.io/2014/01/15/avoiding-locks-golang/)
+
+Benchmarks
+----------
 
 ```
 go test -bench=With
